@@ -42,3 +42,24 @@ Main abstraction hierarchy:
 ---
 
 ## 📁 Project Structure
+Geometry_Calculator/
+│
+├── main.cpp                # Program entry point, menu system
+│
+├── Shape.h                 # Abstract base class for all shapes
+├── Shape2D.h               # Base class for 2D shapes
+├── Shape3D.h               # Base class for 3D shapes
+│
+├── Rectangle.h / .cpp      # Rectangle implementation
+├── Square.h / .cpp         # Square implementation
+├── Circle.h / .cpp         # Circle implementation
+├── Triangle.h / .cpp       # Triangle implementation
+├── Ellipse.h / .cpp        # Ellipse implementation
+├── Parallelogram.h / .cpp  # Parallelogram implementation
+│
+├── Cube.h / .cpp           # Cube (3D shape)
+├── Sphere.h / .cpp         # Sphere (3D shape)
+│
+├── README.md               # Project documentation
+└── Report.pdf              # Project report
+
