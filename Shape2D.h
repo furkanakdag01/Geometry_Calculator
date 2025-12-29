@@ -1,0 +1,12 @@
+#ifndef SHAPE2D_H
+#define SHAPE2D_H
+
+#include "Shape.h"
+
+class Shape2D : public Shape {
+public:
+    virtual double area() = 0;
+    virtual double perimeter() = 0;
+};
+
+#endif
